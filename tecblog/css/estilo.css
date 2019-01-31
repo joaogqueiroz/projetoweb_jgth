@@ -1,23 +1,22 @@
 /*limpar formatações padrão*/
-
 *{
 	margin: 0;
 	padding: 0;
-
 }
 
 body{
 	font-size: 16px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #f3f3f3;
-
-/*teste*/
 }
 
 /*Comentario teste*/
 h2{
 	color: #b9c941;
+	padding-bottom: 5px;
 }
+
+
 #navegacao{
 	background: #fff;
 	border-bottom: 1px solid #d8d8d8;
@@ -25,7 +24,7 @@ h2{
 	position: fixed;
 	width: 100%;
 	top: 0;
-
+	box-shadow:0px 1px 2px rgba(0,0,0,0.5);
 
 }
 
@@ -43,36 +42,30 @@ h2{
 
 #logo{
 	float: left;
-
 }
 
 #menu{
 	float: right;
-	margin: 10px;
-
+	margin: 20px;
 	/*Formatação dos menus*/
 }
 
 #postagem{
 	background: #fff;	
 	padding: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+	box-shadow:0px 1px 2px rgba(0,0,0,0.5), inset 0px 1px 0px rgba(255,255,255,0.25);
 	/*border: 1px solid red;*/
-
 }
 
 
 .verde{
-		color: #b9c941
+		color: #b9c941;
 		/*padding: 5px 10px;*/
-
 }
-	
-
 	a{
 		text-decoration: none;
-	}
-	
+	}	
 		/*Links não visitados*/
 		a:link{
 			color: #838383;
@@ -82,21 +75,24 @@ h2{
 			color: #838383;
 		 }
 		/*Links Hover, pass o cursos sobre o link*/
-			a:hover{
-			background: #b9c941;
+		a:hover{
+			background: rgba(154,205,50,0.4);
+			transition-duration: 0.8s;
 		 }
 		/*Links Ativo*/
 		a:active{
 			color: #535353;
 		 }
+	p{
+		text-align: justify;
+	}
 
 .data-postagem{
-	font-size: 14px;
+	font-size: 12px;
 	border-bottom: 1px solid #f4f4f4;
 	display: block;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-
 }
 
 .img-postagem{
