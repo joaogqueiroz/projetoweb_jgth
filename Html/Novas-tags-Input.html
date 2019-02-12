@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	
+	<title>Novas Tags Input HTML 5</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<form>
+		<!--Associar Label com os elementos -Boa prática- -->
+		<label for="nome">Nome</label>
+		<input type="text" id="nome" placeholder="Nome completo">
+		<br><br>
+		<!-- Novos Inputs e atributos HTML 5 -->
+		<!-- Email -->
+
+		<label for="email">Email</label>
+		<input type="email" id="email" placeholder="Seu email com @" required autofocus>
+		<br><br>
+
+		<!-- Número -->
+		<label for="numbero">Número</label>
+		<input type="number" id="numbero" min="0" max="9999" step="10" placeholder="Seu numero">
+		<br><br>
+
+		<!-- Url -->
+		<label for="url">Url</label>
+		<input type="url" id="url" placeholder="http://www.">
+		<br><br>
+
+		<!-- Pesqusiar -->
+		<label for="pesquisa">Pesqusia</label>
+		<input type="search" id="pesquisa" placeholder="Digite algo">
+		<br><br>
+
+		<!-- Range -->
+		<label for="range">Range</label>
+		<input type="range" id="range" min="1" max="10">
+		<br><br>
+
+		<!-- Data -->
+		<label for="data">Data</label>
+		<input type="date" id="data" >
+		<br><br>
+
+			<!-- Cor -->
+		<label for="cor">Cor</label>
+		<input type="color" id="cor" min="1" max="10">
+		<br><br>
+
+		<input type="submit" name="Enviar">
+	</form>
+</body>
+</html>
